@@ -12,16 +12,11 @@
         grid-template-columns: repeat(4, 1fr);
 
         &__item {
-            list-style: none;
             text-align: center;
 
             h4 {
                 margin-top: 20px;
                 margin-bottom: 24px;
-            }
-
-            li {
-                list-style: none;
             }
 
             img {

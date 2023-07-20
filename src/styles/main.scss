@@ -27,6 +27,10 @@ body {
     background-color: variaveis.$corDeFundo;
 }
 
+li {
+    list-style: none;
+}
+
 @mixin text($fontSize: 16px) {
     font-size: $fontSize;
     line-height: $fontSize + 10px;
