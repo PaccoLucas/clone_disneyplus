@@ -37,7 +37,7 @@
                 padding: 0 24px;
                 transition: height, .5s ease;
 
-                &__secundary__list {
+                &__list {
                     margin: 16px 0px 0px;
                     padding: 0px 0px 0px 40px;
 
@@ -49,6 +49,10 @@
                             list-style: disc;
                         }
                     }
+                }
+
+                p {
+                    margin-top: 16px;
                 }
             }
 

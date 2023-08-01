@@ -80,10 +80,15 @@ li {
     font-size: 18px;
     color: variaveis.$corTextoSecundario;
     background-color: #6421ff;
+    &:hover {
+        background-color: rgb(116, 56, 255);
+    }
+    transition: all .2s ease 0s;
     text-transform: uppercase;
     border-radius: 4px;
     margin-top: 2vw;
     margin-bottom: 8px;
+    cursor: pointer;
 }
 
 .image-text-section {
